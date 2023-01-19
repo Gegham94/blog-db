@@ -1,0 +1,10 @@
+{
+	"succsessMessage" : {
+		"message" : "Success message",
+		"code": 200
+	},
+	"new_notification" : {
+		"message" : "You are have new notification",
+		"code": 200
+	}
+}

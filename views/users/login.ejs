@@ -1,0 +1,23 @@
+<% layout('layout') -%> 
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-5 mx-auto">
+      <div class="signup-form">
+        <form action="/auth/login" method="POST">
+          <h2>Login Page</h2>
+          <p class="hint-text">Sign in your account</p>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+            </div>     
+            <div class="form-group">
+              <button type="submit" class="btn btn-success btn-lg btn-block">Login</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,76 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "title": "Traditional pizza",
+            "name": "Red Apples",
+            "image":"/img/recipes/1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Italian home-made pasta",
+            "name": "French Onion Soup",
+            "image":"/img/recipes/2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Chesse Cake Tart",
+            "name": "Homemade pasta",
+            "image":"/img/recipes/3.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Traditional pizza",
+            "name": "Onion Soup Gratinee",
+            "image":"/img/recipes/4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Italian home-made pasta",
+            "name": "Feta Cheese Burgers",
+            "image":"/img/recipes/5.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Chesse Cake Tart",
+            "name": "Traditional Food",
+            "image":"/img/recipes/6.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Traditional pizza",
+            "name": "Baked Salmon",
+            "image":"/img/recipes/7.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Italian home-made pasta",
+            "name": "Deep Fried Fish",
+            "image":"/img/recipes/8.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Chesse Cake Tart",
+            "name": "Raw Tomato Soup",
+            "image":"/img/recipes/9.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Traditional pizza",
+            "name": "Vegan Food",
+            "image":"/img/recipes/10.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Italian home-made pasta",
+            "name": "Italian pasta",
+            "image":"/img/recipes/11.jpg"
+        },
+        {
+            "id": 12,
+            "title": "Chesse Cake Tart",
+            "name": "Russian Onion Soup",
+            "image":"/img/recipes/12.jpg"
+        }
+    ]
+}

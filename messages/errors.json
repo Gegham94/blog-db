@@ -1,0 +1,26 @@
+{
+  "nameError" : {
+    "message" : "Incorrect Name",
+    "code": 400
+  },
+  "emailError" : {
+    "message" : "Incorrect Email",
+    "code": 400
+  },
+  "ageError" : {
+    "message" : "Your age must be higher then 18!",
+    "code": 400
+  },
+  "passwordError" : {
+    "message" : "Incorrect Password",
+    "code": 400
+  },
+  "passwordMatchError" : {
+    "message" : "Your password are not matched",
+    "code": 400
+  },
+  "standart_error" : {
+    "message" : "Standart error message",
+    "code": 500
+  }
+}

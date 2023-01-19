@@ -1,0 +1,52 @@
+<% layout('layout') -%> 
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-5 mx-auto">
+      <div class="signup-form">
+
+        <div id="my_form" class="my-form">
+          <h2>Register Page</h2>
+          <p class="hint-text">Create your account. It's free and only takes a minute.</p>
+
+          <div class="form-group">
+            <input type="text" class="form-control" id="user" name="user" placeholder="Name" required>
+          </div>
+
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+          </div>
+
+          <div class="form-group">
+            <input type="number" class="form-control" id="age" name="age" placeholder="Age" required>
+          </div>
+
+          <div class="form-group">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+          </div>
+
+          <div class="form-group">
+            <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
+          </div>
+
+          <div class="form-group" id="image_content">
+            <div class="form-group choes_input">
+              <input type="file" class="form-control inpFile" id="inpFile" name="image" accept="image/*" required>
+            </div>
+            <div class="image-preview" id="imagePreview">
+              <label for="inpFile" id="image_preview__default_text"><i class="fa fa-photo"></i></label>
+              <img src="../../uploadImages/defaultImage.jpeg" id="image_preview__image" alt="image">
+            </div>
+          </div>
+            
+          <div class="form-group">
+            <button type="button" id="registerButton" name="button" class="btn btn-success btn-lg btn-block">Register Now</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<% include ../partials/upload.ejs %>
